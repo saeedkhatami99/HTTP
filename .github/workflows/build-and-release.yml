@@ -11,7 +11,7 @@ jobs:
 
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v3
 
     - name: Install Dependencies
       run: sudo apt-get update && sudo apt-get install -y nasm
@@ -23,7 +23,7 @@ jobs:
         mv HTTP Releases/HTTP-$(git rev-parse --short HEAD)
 
     - name: Upload to GitHub Artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: HTTP
         path: Releases/
