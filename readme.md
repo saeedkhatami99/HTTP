@@ -1,4 +1,4 @@
-[![Build and Release](https://github.com/saeedkhatami/http/actions/workflows/build-and-release.yml/badge.svg?branch=main)](https://github.com/saeedkhatami/http/actions/workflows/build-and-release.yml)
+[![Build and Release](https://github.com/saeedkhatami99/http/actions/workflows/build-and-release.yml/badge.svg?branch=main)](https://github.com/saeedkhatami99/http/actions/workflows/build-and-release.yml)
 
 # HTTP
 
